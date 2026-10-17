@@ -1,0 +1,17 @@
+{
+  "id": "78793700eb0a4dcca1158f15df2241b3",
+  "status": "failed",
+  "questions": [],
+  "error": "Generated 0/15 valid questions. Check Ollama is running and OLLAMA_MODEL matches an installed model, then Resume. Model error: model 'qwen3:4b' not found (status code: 404)",
+  "created": 1792247927.274934,
+  "marks": 10,
+  "format": "webp",
+  "covered_topics": [
+    "Concept is Hibernates"
+  ],
+  "model": "qwen3:4b",
+  "completed": 0,
+  "mode": "topic",
+  "source": "Concept is Hibernates",
+  "results": []
+}

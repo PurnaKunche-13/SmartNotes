@@ -1,0 +1,272 @@
+{
+  "id": "bf37a15724c9401183d4bc58100ca543",
+  "status": "complete",
+  "questions": [
+    {
+      "question": "Explain What is Hibernate?.",
+      "topics": [
+        "What is Hibernate?"
+      ]
+    },
+    {
+      "question": "Explain What is ORM (Object.",
+      "topics": [
+        "What is ORM (Object"
+      ]
+    },
+    {
+      "question": "Explain Relational Mapping)?.",
+      "topics": [
+        "Relational Mapping)?"
+      ]
+    },
+    {
+      "question": "Explain Why do we use Hibernate in Java?.",
+      "topics": [
+        "Why do we use Hibernate in Java?"
+      ]
+    },
+    {
+      "question": "Explain What are the advantages of Hibernate over JDBC?.",
+      "topics": [
+        "What are the advantages of Hibernate over JDBC?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between Hibernate and JDBC?.",
+      "topics": [
+        "What is the difference between Hibernate and JDBC?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between Hibernate and JPA?.",
+      "topics": [
+        "What is the difference between Hibernate and JPA?"
+      ]
+    },
+    {
+      "question": "Explain What is an entity class in Hibernate?.",
+      "topics": [
+        "What is an entity class in Hibernate?"
+      ]
+    },
+    {
+      "question": "Explain What is the purpose of the @Entity annotation?.",
+      "topics": [
+        "What is the purpose of the @Entity annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the purpose of the @Id annotation?.",
+      "topics": [
+        "What is the purpose of the @Id annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the @GeneratedValue annotation?.",
+      "topics": [
+        "What is the @GeneratedValue annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the role of hibernate.cfg.xml?.",
+      "topics": [
+        "What is the role of hibernate.cfg.xml?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between SessionFactory and Session?.",
+      "topics": [
+        "What is the difference between SessionFactory and Session?"
+      ]
+    },
+    {
+      "question": "Explain What is the role of the Hibernate Transaction interface?.",
+      "topics": [
+        "What is the role of the Hibernate Transaction interface?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between save() and persist()?.",
+      "topics": [
+        "What is the difference between save() and persist()?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between get() and load()?.",
+      "topics": [
+        "What is the difference between get() and load()?"
+      ]
+    }
+  ],
+  "error": null,
+  "created": 1792237763.2444198,
+  "marks": 10,
+  "format": "webp",
+  "covered_topics": [
+    "What is Hibernate?",
+    "What is ORM (Object",
+    "Relational Mapping)?",
+    "Why do we use Hibernate in Java?",
+    "What are the advantages of Hibernate over JDBC?",
+    "What is the difference between Hibernate and JDBC?",
+    "What is the difference between Hibernate and JPA?",
+    "What is an entity class in Hibernate?",
+    "What is the purpose of the @Entity annotation?",
+    "What is the purpose of the @Id annotation?",
+    "What is the @GeneratedValue annotation?",
+    "What is the role of hibernate.cfg.xml?",
+    "What is the difference between SessionFactory and Session?",
+    "What is the role of the Hibernate Transaction interface?",
+    "What is the difference between save() and persist()?",
+    "What is the difference between get() and load()?"
+  ],
+  "model": "gemma4:31b-cloud",
+  "completed": 16,
+  "results": [
+    {
+      "index": 0,
+      "question": "Explain What is Hibernate?.",
+      "topics": [
+        "What is Hibernate?"
+      ],
+      "answer": "1. **Definition of Hibernate**\nHibernate is an open-source, lightweight Object-Relational Mapping (ORM) framework for the Java language. Its primary purpose is to simplify the development of Java applications that interact with relational databases. Instead of writing complex SQL queries manually, Hibernate allows developers to map Java classes to database tables and Java data types to SQL data types.\n\n2. **How Hibernate Works (ORM Concept)**\nIn a standard Java application, there is a mismatch between the object-oriented nature of Java (classes and objects) and the relational nature of databases (tables and rows). Hibernate acts as a bridge between these two. Through a configuration file (usually `hibernate.cfg.xml`) or annotations, Hibernate knows which Java class corresponds to which database table. When a developer saves a Java object, Hibernate automatically generates the necessary SQL `INSERT` or `UPDATE` statements to store that data in the database.\n\n3. **Key Features and Advantages**\n*   **Database Independence:** Hibernate uses Hibernate Query Language (HQL), which is similar to SQL but independent of the database vendor. This means you can switch from MySQL to Oracle without changing your Java code.\n*   **Automatic Table Creation:** It can automatically create or update database schemas based on the Java entity classes.\n*   **Caching:** Hibernate provides a caching mechanism (First-level and Second-level cache) that reduces the number of direct hits to the database, significantly improving application performance.\n*   **Reduced Boilerplate Code:** It eliminates the need for repetitive JDBC (Java Database Connectivity) code, such as opening and closing connections or manually mapping result sets.\n\n**Conclusion**\nIn summary, Hibernate is a powerful ORM tool that streamlines data persistence in Java applications by automating the mapping between objects and relational tables, thereby increasing developer productivity and application portability.",
+      "seconds": 6.12
+    },
+    {
+      "index": 1,
+      "question": "Explain What is ORM (Object.",
+      "topics": [
+        "What is ORM (Object"
+      ],
+      "answer": "**Object-Relational Mapping (ORM)**\n\n1. **Definition of ORM**\nObject-Relational Mapping (ORM) is a programming technique used to convert data between incompatible type systems: object-oriented programming (OOP) languages (such as Java, Python, or C#) and relational databases (such as MySQL, PostgreSQL, or Oracle). In simple terms, it acts as a bridge that allows developers to interact with a database using the objects of their preferred language instead of writing raw SQL queries.\n\n2. **How ORM Works**\nIn a relational database, data is stored in tables with rows and columns. In OOP, data is stored in objects with attributes and methods. ORM maps these two different structures:\n*   **Class to Table:** A class in the code is mapped to a table in the database.\n*   **Object to Row:** An instance of a class (an object) is mapped to a specific row in that table.\n*   **Attribute to Column:** The properties of the object are mapped to the columns of the table.\n\n3. **Advantages of Using ORM**\n*   **Increased Productivity:** Developers can write less code because they do not need to write repetitive SQL statements for basic CRUD (Create, Read, Update, Delete) operations.\n*   **Database Independence:** ORM provides an abstraction layer. If the underlying database changes (e.g., moving from MySQL to PostgreSQL), the developer often only needs to change a configuration setting rather than rewriting all the queries.\n*   **Maintainability:** Since the data logic is handled in the application language, the code is cleaner, easier to read, and easier to debug.\n\n**Conclusion**\nORM is a powerful tool that simplifies the interaction between an application and its database. By automating the translation between objects and tables, it allows developers to focus on business logic rather than complex database syntax.",
+      "seconds": 3.38
+    },
+    {
+      "index": 2,
+      "question": "Explain Relational Mapping)?.",
+      "topics": [
+        "Relational Mapping)?"
+      ],
+      "answer": "**Relational Mapping**\n\n1. **Definition**\nRelational Mapping (often referred to as Object-Relational Mapping or ORM) is the process of connecting data represented in an object-oriented programming language (such as Java or Python) to data stored in a relational database (such as MySQL or PostgreSQL). Since objects in code and tables in a database use different structures, mapping acts as a bridge to translate between the two.\n\n2. **How it Works**\nIn relational mapping, the components of a class are mapped to the components of a database table:\n*   **Classes to Tables:** A class in the code (e.g., `User`) is mapped to a specific table in the database.\n*   **Objects to Rows:** An individual instance of a class (an object) corresponds to a single row (record) within that table.\n*   **Attributes to Columns:** The properties or fields of the class (e.g., `username`, `email`) are mapped to the columns of the table.\n\n3. **Handling Relationships**\nRelational mapping also manages how different entities relate to one another:\n*   **One-to-One:** One record in Table A relates to exactly one record in Table B.\n*   **One-to-Many:** One record in Table A (e.g., a Customer) relates to multiple records in Table B (e.g., Orders).\n*   **Many-to-Many:** Multiple records in Table A relate to multiple records in Table B, usually managed via a \"join table.\"\n\n4. **Benefits**\nThe primary advantage of relational mapping is that it allows developers to interact with a database using their preferred programming language instead of writing complex SQL queries manually. This increases productivity, reduces code duplication, and makes the application easier to maintain.\n\n**Conclusion**\nRelational mapping is an essential technique that synchronizes the object-oriented nature of modern software with the tabular structure of relational databases, ensuring seamless data persistence and retrieval.",
+      "seconds": 3.54
+    },
+    {
+      "index": 3,
+      "question": "Explain Why do we use Hibernate in Java?.",
+      "topics": [
+        "Why do we use Hibernate in Java?"
+      ],
+      "answer": "**Why Hibernate is used in Java**\n\nHibernate is a powerful Object-Relational Mapping (ORM) framework used to simplify the interaction between a Java application and a relational database. We use Hibernate for the following primary reasons:\n\n1. **Elimination of Boilerplate Code**\nIn standard JDBC, developers must write repetitive code to open connections, create statements, and manually map result sets to Java objects. Hibernate automates these tasks, significantly reducing the amount of code a developer needs to write and maintain.\n\n2. **Object-Relational Mapping (ORM)**\nJava is object-oriented, while databases are relational (tables). Hibernate bridges this gap by mapping Java classes to database tables and Java objects to table rows. This allows developers to work with data as objects rather than complex SQL queries.\n\n3. **Database Independence (Dialects)**\nHibernate uses a \"Dialect\" property. This means the developer does not need to write database-specific SQL. If a project switches from MySQL to Oracle, the developer only needs to change the dialect configuration rather than rewriting all the SQL queries in the application.\n\n4. **Automatic Table Creation**\nHibernate can automatically create or update database tables based on the Java entity classes using the `hbm2ddl` property. This speeds up the development process during the prototyping phase.\n\n5. **Caching Mechanism**\nTo improve performance, Hibernate provides First-level (Session) and Second-level caching. This reduces the number of direct hits to the database by storing frequently accessed data in memory, thereby increasing the application's speed.\n\n**Conclusion**\nIn summary, Hibernate is used to increase developer productivity, ensure database portability, and optimize performance through caching, making it a superior alternative to traditional JDBC for enterprise applications.",
+      "seconds": 2.68
+    },
+    {
+      "index": 4,
+      "question": "Explain What are the advantages of Hibernate over JDBC?.",
+      "topics": [
+        "What are the advantages of Hibernate over JDBC?"
+      ],
+      "answer": "**Advantages of Hibernate over JDBC**\n\nHibernate is an Object-Relational Mapping (ORM) framework that simplifies the interaction between a Java application and a relational database. While JDBC (Java Database Connectivity) is a low-level API, Hibernate provides a high-level abstraction. The primary advantages are:\n\n1. **Reduction in Boilerplate Code**\nIn JDBC, developers must manually write repetitive code to open connections, create statements, and map result sets to Java objects. Hibernate automates these tasks, significantly reducing the amount of code and minimizing the risk of errors.\n\n2. **Database Independence**\nJDBC requires database-specific SQL queries, making it difficult to switch databases. Hibernate uses Hibernate Query Language (HQL), which is object-oriented. Through a \"Dialect\" property, Hibernate automatically translates HQL into the specific SQL syntax of the underlying database (e.g., MySQL, Oracle, or PostgreSQL).\n\n3. **Automatic Table Creation**\nUnlike JDBC, where tables must be created manually using SQL scripts, Hibernate can automatically generate database tables based on the Java entity classes using the `hbm2ddl` property.\n\n4. **Caching Mechanism**\nHibernate provides a built-in caching system (First-level and Second-level cache). This reduces the number of direct hits to the database by storing frequently accessed data in memory, which greatly improves application performance compared to JDBC.\n\n5. **Object-Relational Mapping (ORM)**\nHibernate maps Java classes directly to database tables and Java objects to table rows. This eliminates the need for manual mapping, allowing developers to work with objects rather than complex SQL result sets.\n\n**Conclusion**\nWhile JDBC offers more granular control, Hibernate is superior for large-scale applications because it increases developer productivity, ensures database portability, and optimizes performance through caching.",
+      "seconds": 3.4
+    },
+    {
+      "index": 5,
+      "question": "Explain What is the difference between Hibernate and JDBC?.",
+      "topics": [
+        "What is the difference between Hibernate and JDBC?"
+      ],
+      "answer": "1. **Introduction to JDBC**\nJava Database Connectivity (JDBC) is a standard Java API that allows applications to interact with relational databases. It acts as a low-level bridge where the developer must write raw SQL queries to perform Create, Read, Update, and Delete (CRUD) operations. JDBC requires manual management of database connections, statements, and result sets.\n\n2. **Introduction to Hibernate**\nHibernate is an Object-Relational Mapping (ORM) framework built on top of JDBC. Instead of writing raw SQL, Hibernate allows developers to map Java classes to database tables. It treats the database as a collection of objects, automating the process of persisting data and retrieving it without requiring the developer to write complex SQL for every operation.\n\n3. **Key Differences**\n*   **Level of Abstraction:** JDBC is a low-level API, meaning the developer handles all the details of the database interaction. Hibernate is a high-level framework that abstracts the database layer.\n*   **Query Language:** JDBC uses standard SQL, which is database-specific. Hibernate uses Hibernate Query Language (HQL), which is database-independent and object-oriented.\n*   **Boilerplate Code:** JDBC requires extensive \"boilerplate\" code to open/close connections and handle exceptions. Hibernate significantly reduces this code by automating connection management.\n*   **Database Portability:** In JDBC, changing the database provider often requires rewriting SQL queries. Hibernate provides a \"Dialect\" property, allowing the application to switch databases with minimal configuration changes.\n*   **Caching:** JDBC does not provide built-in caching. Hibernate offers first-level and second-level caching to improve application performance by reducing the number of database hits.\n\n4. **Conclusion**\nIn summary, while JDBC provides direct and granular control over the database, Hibernate offers productivity and portability through ORM. Most modern enterprise applications use Hibernate to simplify development, though Hibernate internally relies on JDBC to communicate with the database.",
+      "seconds": 48.61
+    },
+    {
+      "index": 6,
+      "question": "Explain What is the difference between Hibernate and JPA?.",
+      "topics": [
+        "What is the difference between Hibernate and JPA?"
+      ],
+      "answer": "1. **Definition of JPA (Java Persistence API)**\nJPA is a specification or a set of guidelines defined by Jakarta EE (formerly Java EE). It is not a tool or a piece of software that you can run; rather, it is a standard API that describes how to manage relational data in Java applications. It provides a common set of interfaces and annotations (such as `@Entity` and `@Id`) that define how Java objects should be mapped to database tables.\n\n2. **Definition of Hibernate**\nHibernate is an Object-Relational Mapping (ORM) framework that implements the JPA specification. While JPA is the \"rulebook,\" Hibernate is the actual \"engine\" that does the work. It provides the concrete implementation of the JPA interfaces, allowing developers to perform CRUD (Create, Read, Update, Delete) operations without writing complex SQL queries manually.\n\n3. **Key Differences**\n*   **Nature:** JPA is a specification (a blueprint), whereas Hibernate is a provider (the actual implementation).\n*   **Dependency:** JPA is part of the Java standard. Hibernate is a third-party library.\n*   **Flexibility:** Because JPA is a standard, you can switch from Hibernate to another JPA-compliant provider (like EclipseLink) with minimal code changes. If you use Hibernate-specific features, your code becomes locked to Hibernate.\n*   **Features:** Hibernate offers additional features that go beyond the JPA standard, such as a more advanced caching mechanism and specific criteria APIs.\n\n4. **Conclusion**\nIn summary, JPA is the interface that defines the standard for object-relational mapping in Java, and Hibernate is the most popular framework used to implement that standard. Using JPA ensures portability, while Hibernate provides the powerful functionality required to interact with the database.",
+      "seconds": 5.11
+    },
+    {
+      "index": 7,
+      "question": "Explain What is an entity class in Hibernate?.",
+      "topics": [
+        "What is an entity class in Hibernate?"
+      ],
+      "answer": "1. **Definition of an Entity Class**\nIn Hibernate, an entity class is a lightweight, persistent domain class that represents a table in a relational database. It is a Plain Old Java Object (POJO) that maps its properties to the columns of a database table. Essentially, it acts as a bridge between the object-oriented world of Java and the relational world of SQL.\n\n2. **Key Characteristics**\nTo qualify as an entity class, a Java class must follow specific rules:\n*   **No-Argument Constructor:** It must have a public or protected no-argument constructor so Hibernate can instantiate it using reflection.\n*   **Identifier:** Every entity must have a primary key, defined by a field annotated with `@Id`.\n*   **Non-Final:** The class and its properties should not be declared as `final`, as Hibernate creates proxy objects to handle lazy loading.\n\n3. **Mapping Mechanism**\nHibernate uses mapping to link the class to the database. This is achieved through:\n*   **Annotations:** Using `@Entity` at the class level to mark it as a persistent object and `@Table` to specify the exact table name.\n*   **Fields:** Class fields (e.g., `private String name`) are mapped to table columns using the `@Column` annotation.\n*   **Getters and Setters:** These are used by Hibernate to access and modify the data within the object.\n\n4. **Example Scenario**\nIf you have a database table named `Employees` with columns `EmpID` and `EmpName`, you would create an entity class named `Employee`. The `EmpID` field would be marked with `@Id`, and the class would be marked with `@Entity`.\n\n**Conclusion**\nAn entity class is the fundamental building block of Hibernate that enables Object-Relational Mapping (ORM), allowing developers to manipulate database records as standard Java objects.",
+      "seconds": 5.6
+    },
+    {
+      "index": 8,
+      "question": "Explain What is the purpose of the @Entity annotation?.",
+      "topics": [
+        "What is the purpose of the @Entity annotation?"
+      ],
+      "answer": "1. **Definition of @Entity**\nThe `@Entity` annotation is a core part of the Java Persistence API (JPA). It is a marker annotation used at the class level to inform the JPA provider (such as Hibernate) that a specific Java class is an entity. In simple terms, it tells the application that this class should be mapped to a table in a relational database.\n\n2. **Primary Purposes**\nThe main purposes of the `@Entity` annotation are as follows:\n*   **Object-Relational Mapping (ORM):** It enables the bridge between object-oriented Java code and relational database tables. Each instance of an `@Entity` class represents a single row in the database table.\n*   **Table Creation:** When using automatic schema generation, the JPA provider uses the `@Entity` annotation to automatically create the corresponding table in the database if it does not already exist.\n*   **Persistence Management:** It allows the EntityManager to track the lifecycle of the object. This means the system knows how to perform CRUD (Create, Read, Update, Delete) operations on the object and synchronize those changes with the database.\n\n3. **Requirements for Use**\nFor a class to be marked with `@Entity`, it must follow specific rules:\n*   It must have a no-argument constructor (public or protected).\n*   It must have a primary key defined using the `@Id` annotation.\n*   The class cannot be declared as `final`.\n\n**Conclusion**\nIn summary, the `@Entity` annotation is essential for transforming a standard Java class into a persistent database object. Without it, the JPA framework would not recognize the class as a data model, making it impossible to store or retrieve its data from a relational database.",
+      "seconds": 5.11
+    },
+    {
+      "index": 9,
+      "question": "Explain What is the purpose of the @Id annotation?.",
+      "topics": [
+        "What is the purpose of the @Id annotation?"
+      ],
+      "answer": "1. **Definition of @Id**\nThe `@Id` annotation is a marker used in Java Persistence API (JPA) and Hibernate. Its primary purpose is to specify which field in an entity class serves as the primary key of the corresponding database table. In a relational database, every table requires a primary key to uniquely identify each record; the `@Id` annotation tells the application which Java variable maps to that specific column.\n\n2. **Core Purposes and Functions**\n*   **Unique Identification:** It ensures that the persistence provider can distinguish one entity instance from another. Without this annotation, the JPA provider would not know how to perform lookups, updates, or deletions for a specific row.\n*   **Mapping to Primary Keys:** It creates a direct link between the object-oriented model (the Java class) and the relational model (the SQL table), ensuring that the designated field is treated as the unique identifier during SQL generation.\n*   **Enabling Entity Management:** The `@Id` annotation allows the `EntityManager` to manage the entity's lifecycle. For example, when using the `find()` method, the `@Id` value is passed as an argument to retrieve the correct object from the database.\n\n3. **Relationship with @GeneratedValue**\nWhile `@Id` defines the primary key, it does not specify how that key is created. It is frequently used alongside the `@GeneratedValue` annotation, which automates the creation of the ID (such as using an auto-incrementing column in MySQL or a sequence in Oracle), removing the need for the developer to manually assign a unique value to every new object.\n\n**Conclusion**\nIn summary, the `@Id` annotation is essential for mapping Java objects to database tables by designating the primary key, thereby ensuring data integrity and enabling efficient entity retrieval.",
+      "seconds": 5.34
+    },
+    {
+      "index": 10,
+      "question": "Explain What is the @GeneratedValue annotation?.",
+      "topics": [
+        "What is the @GeneratedValue annotation?"
+      ],
+      "answer": "1. **Definition of @GeneratedValue**\nThe `@GeneratedValue` annotation is used in Java Persistence API (JPA) and Hibernate to specify how the primary key of an entity should be generated. When a field is marked with `@Id`, it tells JPA that the field is the primary key; however, `@GeneratedValue` tells the system how to automatically assign a unique value to that key when a new record is inserted into the database. This removes the need for the developer to manually assign an ID to every object.\n\n2. **Generation Strategies**\nThe annotation uses a `strategy` attribute to define the method of ID generation. The four most common strategies are:\n*   **AUTO**: The persistence provider chooses the most appropriate strategy based on the database dialect.\n*   **IDENTITY**: The database handles the ID generation using an auto-increment column (common in MySQL).\n*   **SEQUENCE**: The system uses a database sequence to generate unique values (common in Oracle and PostgreSQL).\n*   **TABLE**: A separate table is used to keep track of the next available primary key value.\n\n3. **Example Usage**\nIn a typical Java class, it is applied directly above the ID field:\n```java\n@Id\n@GeneratedValue(strategy = GenerationType.IDENTITY)\nprivate Long id;\n```\nIn this example, the database will automatically increment the ID for every new user added to the table.\n\n4. **Conclusion**\nIn summary, the `@GeneratedValue` annotation is essential for automating primary key management in JPA. By delegating ID creation to the database or the persistence provider, it ensures data integrity, prevents duplicate keys, and simplifies the development process.",
+      "seconds": 4.55
+    },
+    {
+      "index": 11,
+      "question": "Explain What is the role of hibernate.cfg.xml?.",
+      "topics": [
+        "What is the role of hibernate.cfg.xml?"
+      ],
+      "answer": "**Role of hibernate.cfg.xml**\n\nThe `hibernate.cfg.xml` file is a central configuration file used in the Hibernate framework. Its primary role is to provide the necessary settings that allow the Java application to communicate with a relational database.\n\n**1. Database Connection Settings**\nThe file defines the essential parameters required to establish a connection with the database. This includes:\n*   **JDBC URL:** The address of the database (e.g., MySQL or Oracle).\n*   **Username and Password:** The credentials required to access the database.\n*   **Driver Class:** The specific JDBC driver class used to connect the application to the database engine.\n\n**2. Hibernate Dialect Configuration**\nSince different databases use slightly different versions of SQL, Hibernate uses a \"Dialect.\" The `hibernate.cfg.xml` file specifies which dialect to use (e.g., `MySQL8Dialect`). This ensures that Hibernate generates the correct SQL syntax for the specific database being used.\n\n**3. Connection Pool Properties**\nThe file is used to manage how connections are handled to improve performance. It allows developers to set properties for connection pooling, such as the maximum number of connections allowed and the timeout settings.\n\n**4. Mapping File Registration**\nFor Hibernate to know which Java classes (POJOs) correspond to which database tables, it needs mapping information. The `hibernate.cfg.xml` file lists all the `.hbm.xml` mapping files or annotated classes used in the project.\n\n**5. Debugging and Execution Settings**\nIt allows developers to control the behavior of the framework. For example, the `show_sql` property can be set to \"true\" to print all generated SQL queries to the console for debugging purposes.\n\n**Conclusion**\nIn summary, `hibernate.cfg.xml` acts as the bridge between the Java application and the database, managing connectivity, SQL translation, and object-relational mapping.",
+      "seconds": 6.14
+    },
+    {
+      "index": 12,
+      "question": "Explain What is the difference between SessionFactory and Session?.",
+      "topics": [
+        "What is the difference between SessionFactory and Session?"
+      ],
+      "answer": "**Difference between SessionFactory and Session in Hibernate**\n\n1. **SessionFactory**\nThe SessionFactory is a thread-safe, immutable cache provider that acts as a factory for Session objects. It is created during the application startup process by reading the configuration files (such as `hibernate.cfg.xml`) and mapping files. Because it is a heavyweight object that consumes significant resources to initialize, only one SessionFactory is typically created for the entire application. Its primary role is to manage the second-level cache and provide the necessary environment to open database sessions.\n\n2. **Session**\nA Session is a lightweight, non-thread-safe object that represents a single unit of work with the database. It is created by calling the `openSession()` method of the SessionFactory. The Session acts as a wrapper around the JDBC connection and provides methods to perform CRUD operations (Create, Read, Update, Delete) on persistent objects. Unlike the SessionFactory, a Session is short-lived; it is opened when a transaction begins and must be closed immediately after the task is completed to prevent memory leaks and connection exhaustion.\n\n3. **Key Differences Summary**\n*   **Lifecycle:** SessionFactory is created once per application lifetime; Session is created and destroyed for every database request.\n*   **Thread Safety:** SessionFactory is thread-safe and can be shared across multiple threads; Session is not thread-safe and must be used within a single thread.\n*   **Resource Cost:** SessionFactory is a heavyweight object; Session is a lightweight object.\n*   **Purpose:** SessionFactory is used to configure the database environment; Session is used to execute actual data operations.\n\n**Conclusion**\nIn summary, the SessionFactory is the global configuration engine that manages the application's connection to the database, while the Session is the temporary worker used to execute specific data transactions.",
+      "seconds": 5.06
+    },
+    {
+      "index": 13,
+      "question": "Explain What is the role of the Hibernate Transaction interface?.",
+      "topics": [
+        "What is the role of the Hibernate Transaction interface?"
+      ],
+      "answer": "**The Role of the Hibernate Transaction Interface**\n\nThe Hibernate Transaction interface is a fundamental component of the Hibernate framework used to manage a single unit of work. It ensures that a series of database operations are treated as one atomic action, maintaining data integrity and consistency.\n\n**1. Ensuring Atomicity (ACID Properties)**\nThe primary role of the Transaction interface is to implement the \"Atomicity\" part of ACID properties. It ensures that either all operations within a transaction are successfully committed to the database, or none of them are. If any part of the process fails, the transaction can be rolled back, preventing partial data updates that would lead to corrupted or inconsistent data.\n\n**2. Managing Unit of Work**\nThe interface provides a way to define the boundaries of a logical operation. By using methods such as `begin()` and `commit()`, a developer can group multiple `save()`, `update()`, or `delete()` calls together. This prevents the database from saving changes prematurely and ensures that the application state remains synchronized with the database state.\n\n**3. Coordinating with the Session**\nThe Transaction interface works closely with the Hibernate `Session`. While the Session manages the persistence context (the objects), the Transaction manages the actual physical commit to the database. Without a transaction, Hibernate may operate in \"auto-commit\" mode, which is inefficient for complex operations and risky for data integrity.\n\n**4. Error Handling and Recovery**\nThe interface allows for robust error handling. By wrapping operations in a try-catch block, the developer can call `transaction.rollback()` if an exception occurs. This reverts the database to its previous stable state, ensuring that a system crash or logic error does not leave \"orphan\" records in the database.\n\n**Conclusion**\nIn summary, the Hibernate Transaction interface acts as a safety mechanism that guarantees data reliability by managing the start, completion, and failure of database operations.",
+      "seconds": 5.78
+    },
+    {
+      "index": 14,
+      "question": "Explain What is the difference between save() and persist()?.",
+      "topics": [
+        "What is the difference between save() and persist()?"
+      ],
+      "answer": "1. **Definition of save()**\nThe `save()` method is used to write data from the application's memory to a permanent storage system, such as a database or a file system. It is a terminal operation that ensures data is physically stored on a disk. Once `save()` is called, the data is persistent, meaning it will remain available even if the application crashes or the system is restarted.\n\n2. **Definition of persist()**\nThe `persist()` method is used to store a dataset in memory (RAM) or on disk temporarily to avoid re-computing it. It is primarily used in distributed computing frameworks (like Apache Spark) to cache intermediate results. Unlike `save()`, `persist()` does not write the final output to a permanent database; instead, it keeps the data \"handy\" for subsequent operations within the same session to improve performance.\n\n3. **Key Differences**\n*   **Purpose:** `save()` is for permanent storage (archiving), while `persist()` is for performance optimization (caching).\n*   **Storage Location:** `save()` typically targets external storage (HDD/SSD/Cloud), whereas `persist()` targets memory or local temporary storage.\n*   **Lifecycle:** Data handled by `save()` exists indefinitely until manually deleted. Data handled by `persist()` exists only for the duration of the application's runtime or until it is manually unpersisted.\n*   **Operation Type:** `save()` is an action that triggers the execution of a data pipeline, while `persist()` is a transformation or a hint that tells the system how to handle data during execution.\n\n**Conclusion**\nIn summary, `save()` is used for long-term data durability, while `persist()` is used for short-term efficiency to speed up repetitive computations.",
+      "seconds": 5.02
+    },
+    {
+      "index": 15,
+      "question": "Explain What is the difference between get() and load()?.",
+      "topics": [
+        "What is the difference between get() and load()?"
+      ],
+      "answer": "1. **Definition of get()**\nThe `get()` method is primarily used to retrieve a specific value from a data structure, such as a dictionary in Python or an element in a web request. Its main characteristic is that it is \"safe.\" If the requested key or index does not exist, `get()` does not crash the program or throw an error; instead, it returns a default value (usually `None` or a user-defined alternative). It is used when you are unsure if a piece of data exists and want to avoid program failure.\n\n2. **Definition of load()**\nThe `load()` method is used to read and parse an entire data object from an external source, such as a file or a stream. For example, in JSON or YAML libraries, `load()` reads a file from the disk and converts it into a usable data structure (like a list or a dictionary) in the computer's memory. Unlike `get()`, which looks for one specific item, `load()` processes a whole dataset to make it available for the program to use.\n\n3. **Key Differences**\n*   **Scope:** `get()` retrieves a single, specific value from an existing object, whereas `load()` imports an entire object from an external source.\n*   **Error Handling:** `get()` is designed to handle missing keys gracefully without crashing. `load()` will typically throw an error if the file is missing or the format is corrupted.\n*   **Purpose:** `get()` is for data access; `load()` is for data initialization.\n\n**Conclusion**\nIn summary, `get()` is a tool for safely accessing individual pieces of information already in memory, while `load()` is the process of bringing an entire dataset into the program from an external file.",
+      "seconds": 3.22
+    }
+  ]
+}

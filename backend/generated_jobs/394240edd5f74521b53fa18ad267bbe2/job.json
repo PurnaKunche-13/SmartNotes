@@ -1,0 +1,240 @@
+{
+  "id": "394240edd5f74521b53fa18ad267bbe2",
+  "status": "complete",
+  "questions": [
+    {
+      "question": "Explain HRM: Nature, Scope, Concept of HRM.",
+      "topics": [
+        "HRM: Nature, Scope, Concept of HRM"
+      ]
+    },
+    {
+      "question": "Explain Functions of HRM.",
+      "topics": [
+        "Functions of HRM"
+      ]
+    },
+    {
+      "question": "Explain Role of HR manager.",
+      "topics": [
+        "Role of HR manager"
+      ]
+    },
+    {
+      "question": "Explain Emerging trends in HRM.",
+      "topics": [
+        "Emerging trends in HRM"
+      ]
+    },
+    {
+      "question": "Explain HRM.",
+      "topics": [
+        "HRM"
+      ]
+    },
+    {
+      "question": "Explain HR audit models.",
+      "topics": [
+        "HR audit models"
+      ]
+    },
+    {
+      "question": "Explain ethical aspects of HRM. HR.",
+      "topics": [
+        "ethical aspects of HRM. HR"
+      ]
+    },
+    {
+      "question": "Explain Planning.",
+      "topics": [
+        "Planning"
+      ]
+    },
+    {
+      "question": "Explain Demand and Supply forecasting of HR.",
+      "topics": [
+        "Demand and Supply forecasting of HR"
+      ]
+    },
+    {
+      "question": "Explain Job Design.",
+      "topics": [
+        "Job Design"
+      ]
+    },
+    {
+      "question": "Explain Recruitment.",
+      "topics": [
+        "Recruitment"
+      ]
+    },
+    {
+      "question": "Explain Sources of.",
+      "topics": [
+        "Sources of"
+      ]
+    },
+    {
+      "question": "Explain Selection.",
+      "topics": [
+        "Selection"
+      ]
+    },
+    {
+      "question": "Explain Selection Procedure.",
+      "topics": [
+        "Selection Procedure"
+      ]
+    }
+  ],
+  "error": null,
+  "created": 1792214493.5409453,
+  "marks": 5,
+  "format": "webp",
+  "covered_topics": [
+    "HRM: Nature, Scope, Concept of HRM",
+    "Functions of HRM",
+    "Role of HR manager",
+    "Emerging trends in HRM",
+    "HRM",
+    "HR audit models",
+    "ethical aspects of HRM. HR",
+    "Planning",
+    "Demand and Supply forecasting of HR",
+    "Job Design",
+    "Recruitment",
+    "Sources of",
+    "Selection",
+    "Selection Procedure"
+  ],
+  "model": "qwen3:4b",
+  "completed": 14,
+  "results": [
+    {
+      "index": 0,
+      "question": "Explain HRM: Nature, Scope, Concept of HRM.",
+      "topics": [
+        "HRM: Nature, Scope, Concept of HRM"
+      ],
+      "answer": "Human Resource Management (HRM)  \n\n1.  **Nature**: HRM is the strategic approach to managing an organization's people resources. It focuses on optimizing human capital to achieve business objectives through systematic planning and execution.  \n\n2.  **Scope**: HRM covers all activities involved in managing employees, including recruitment, selection, training, performance management, compensation, and employee relations. It ensures people strategies support organizational goals across the entire workforce.  \n\n3.  **Concept**: The core concept of HRM is that people are the organization's most valuable asset. It integrates human resources with business strategy to create a productive, motivated workforce that drives sustainable success and aligns with the company’s vision.  \n\nHRM ensures organizations achieve their goals effectively by strategically managing people as a key business resource.",
+      "seconds": 68.27
+    },
+    {
+      "index": 1,
+      "question": "Explain Functions of HRM.",
+      "topics": [
+        "Functions of HRM"
+      ],
+      "answer": "Human Resource Management (HRM) has several key functions:\n\n1.  Recruitment and selection: Finding and hiring the right people for jobs.\n2.  Training and development: Teaching employees new skills and helping them grow.\n3.  Performance management: Monitoring work, giving feedback, and setting goals.\n4.  Compensation and benefits: Deciding pay, bonuses, and other rewards like health insurance.\n5.  Employee relations: Resolving conflicts and maintaining positive working relationships.\n\nThese functions ensure a productive and motivated workforce.",
+      "seconds": 47.65
+    },
+    {
+      "index": 2,
+      "question": "Explain Role of HR manager.",
+      "topics": [
+        "Role of HR manager"
+      ],
+      "answer": "HR Manager\n\n1.  **Recruitment and Hiring**: They find the right people for jobs by advertising, interviewing, and checking candidates.\n2.  **Training and Development**: They plan and run training sessions to help employees learn new skills and grow in their careers.\n3.  **Employee Relations**: They handle conflicts between staff, support staff wellbeing, and ensure a positive workplace culture.\n4.  **Policy Development**: They create and update company rules and procedures to ensure fair treatment and legal compliance.\n5.  **Performance Management**: They monitor employee work, give feedback, and help staff improve their performance goals.\n\nIn summary, HR managers are essential for building a skilled, motivated, and well-managed workforce that supports the organization's success.",
+      "seconds": 46.31
+    },
+    {
+      "index": 3,
+      "question": "Explain Emerging trends in HRM.",
+      "topics": [
+        "Emerging trends in HRM"
+      ],
+      "answer": "1.  Technology Integration: HRM increasingly uses AI and automation for tasks like recruitment screening and performance tracking, making processes faster and more efficient.\n\n2.  Flexible Work Models: Companies now offer remote work, hybrid schedules, and flexible hours to improve employee well-being and attract talent in a changing world.\n\n3.  Data-Driven Decisions: HR teams rely more on analytics to understand workforce trends, predict needs, and make fair, evidence-based choices about people management.\n\n4.  Inclusive Practices: There's a strong focus on creating diverse, equitable workplaces through targeted training and policies to ensure all employees feel valued and included.\n\nThese trends help organisations build adaptable, responsive, and human-centric workplaces for the future.",
+      "seconds": 47.56
+    },
+    {
+      "index": 4,
+      "question": "Explain HRM.",
+      "topics": [
+        "HRM"
+      ],
+      "answer": "Human Resource Management (HRM) is the process of managing an organization's people to achieve business goals.  \n\n1.  **Definition**: HRM involves planning, recruiting, training, and supporting employees to ensure they work effectively together.  \n2.  **Key Activities**: This includes finding suitable staff, developing their skills, monitoring performance, resolving conflicts, and ensuring fair treatment.  \n3.  **Importance**: Good HRM helps businesses attract talent, boost productivity, improve employee satisfaction, and create a positive work environment.  \n\nHRM helps organizations achieve their goals by managing people effectively and responsibly.",
+      "seconds": 56.52
+    },
+    {
+      "index": 5,
+      "question": "Explain HR audit models.",
+      "topics": [
+        "HR audit models"
+      ],
+      "answer": "HR audit models help organizations check their HR practices.  \n\n1.  Strategic models ensure HR activities align with business goals and long-term plans.  \n2.  Operational models evaluate the efficiency and effectiveness of day-to-day HR processes like recruitment and training.  \n3.  Compliance models verify HR follows legal requirements and internal policies to avoid risks.  \n\nThese models provide clear ways to identify strengths, weaknesses, and areas needing improvement in people management. They help HR teams make better decisions and support the organization’s success. In conclusion, using these models ensures HR practices are fit for purpose and contribute to overall business performance.",
+      "seconds": 66.11
+    },
+    {
+      "index": 6,
+      "question": "Explain ethical aspects of HRM. HR.",
+      "topics": [
+        "ethical aspects of HRM. HR"
+      ],
+      "answer": "1. Fair treatment: HRM must ensure all employees receive equal opportunities, unbiased decisions in hiring, promotions, and pay to prevent discrimination and build trust.  \n2. Privacy protection: Companies must safeguard employee personal information, like health data or performance reviews, following legal standards to avoid misuse and maintain confidentiality.  \n3. Discrimination prevention: HR policies should actively eliminate bias based on race, gender, age, or disability during recruitment and workplace interactions to create inclusive environments.  \n4. Transparency: Open communication about company policies, decisions, and expectations helps employees understand their rights and responsibilities, fostering accountability and mutual respect.  \n\nEthical HRM ensures workplaces are just, respectful, and supportive for everyone.",
+      "seconds": 58.03
+    },
+    {
+      "index": 7,
+      "question": "Explain Planning.",
+      "topics": [
+        "Planning"
+      ],
+      "answer": "Planning means creating a clear roadmap before starting work. It helps you decide what to do, when to do it, and how to do it effectively.  \n\n1.  **Definition**: Planning is thinking ahead about your goals and steps to achieve them.  \n2.  **Why it matters**: It prevents problems, saves time and money, and ensures your work stays focused on important tasks.  \n3.  **How it works**: You set specific goals, then break them into small, manageable actions with deadlines.  \n\nIn short, planning turns big ideas into practical steps, making your work more successful and less stressful. Good planning is essential for reaching your objectives.",
+      "seconds": 45.64
+    },
+    {
+      "index": 8,
+      "question": "Explain Demand and Supply forecasting of HR.",
+      "topics": [
+        "Demand and Supply forecasting of HR"
+      ],
+      "answer": "Demand and Supply forecasting in HR\n\n1.  **Demand Forecasting**: Predicts future employee needs based on business goals, project plans, and growth strategies. It estimates how many staff are required to achieve objectives, considering factors like market expansion or new product launches.\n\n2.  **Supply Forecasting**: Assesses current and potential employee availability. It identifies internal talent (current staff, skills gaps) and external talent pools (job markets, recruitment sources) to meet future demand.\n\nThis forecasting helps HR plan hiring, training, and retention effectively. Accurate predictions ensure the right number of skilled people are available when needed, supporting organizational success without over or under-staffing.",
+      "seconds": 47.16
+    },
+    {
+      "index": 9,
+      "question": "Explain Job Design.",
+      "topics": [
+        "Job Design"
+      ],
+      "answer": "Job Design is the process of planning and structuring work tasks, responsibilities, and relationships to create effective and satisfying jobs.  \n\n1.  **Definition**: It involves deciding what tasks an employee performs, how they interact with others, and the authority they hold.  \n2.  **Key Elements**: This includes defining specific duties, setting clear goals, assigning appropriate authority, and choosing work methods to ensure efficiency and motivation.  \n3.  **Importance**: Good job design boosts employee morale, reduces errors, improves productivity, and helps match roles to individual skills and organizational needs.  \n\nThis approach helps organizations create jobs that are both effective and enjoyable for workers.",
+      "seconds": 54.12
+    },
+    {
+      "index": 10,
+      "question": "Explain Recruitment.",
+      "topics": [
+        "Recruitment"
+      ],
+      "answer": "Recruitment is the process of finding and selecting people for jobs within an organization.\n\n1.  **Definition**: It involves identifying job needs, searching for suitable candidates, and choosing the best individuals to fill those positions.\n\n2.  **Importance**: Effective recruitment ensures businesses get skilled, motivated employees who fit the company culture and can contribute to success. Poor recruitment leads to high turnover and wasted resources.\n\n3.  **How it works**: Companies use methods like job ads, recruitment agencies, social media, and interviews to find candidates. They then assess skills and fit before making hiring decisions.\n\nIn summary, recruitment is vital for building a strong, productive workforce that supports business goals.",
+      "seconds": 43.88
+    },
+    {
+      "index": 11,
+      "question": "Explain Sources of.",
+      "topics": [
+        "Sources of"
+      ],
+      "answer": "1. Primary sources  \nThese are original materials created by people involved in an event. Examples include diaries, photos, or raw data from experiments. They provide direct evidence about a topic.\n\n2. Secondary sources  \nThese interpret or analyze primary sources. Books, articles, and documentaries use existing information to explain events, ideas, or research. They offer context and understanding.\n\n3. Tertiary sources  \nThese summarize and organize information from primary and secondary sources. Encyclopedias, textbooks, and online databases help students find reliable facts quickly.\n\nUnderstanding these sources helps students evaluate information quality and build strong research skills.",
+      "seconds": 52.75
+    },
+    {
+      "index": 12,
+      "question": "Explain Selection.",
+      "topics": [
+        "Selection"
+      ],
+      "answer": "1. Definition  \nSelection is choosing specific data or items from a larger set based on certain rules.  \n\n2. Purpose  \nIt helps us filter out unwanted information, keeping only what is useful or relevant for a task.  \n\n3. How it works  \nSelection compares values against conditions, like \"if a number is greater than 10, include it.\" This process makes data handling efficient.  \n\nIn summary, selection is a key method for focusing on important details while ignoring irrelevant parts, improving decision-making and processing speed. It remains essential in computing and problem-solving.",
+      "seconds": 46.8
+    },
+    {
+      "index": 13,
+      "question": "Explain Selection Procedure.",
+      "topics": [
+        "Selection Procedure"
+      ],
+      "answer": "Selection Procedure refers to the steps used to choose the best candidate for a job or role.  \n\n1.  **Definition**: It is a structured process to identify and select individuals who meet specific requirements and fit the position.  \n\n2.  **Common Methods**: This includes interviews, written tests, skills assessments, background checks, and reference calls to evaluate suitability.  \n\n3.  **Purpose**: The goal is to ensure the chosen person has the necessary abilities, experience, and cultural fit to succeed in the role and contribute effectively.  \n\nThis process helps organizations make fair, objective decisions, reducing the risk of poor hires and improving overall team performance. It ensures the best fit for roles.",
+      "seconds": 52.79
+    }
+  ]
+}

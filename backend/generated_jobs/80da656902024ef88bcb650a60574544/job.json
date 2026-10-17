@@ -1,0 +1,127 @@
+{
+  "id": "80da656902024ef88bcb650a60574544",
+  "status": "queued",
+  "questions": [
+    {
+      "question": "Explain What is Hibernate?.",
+      "topics": [
+        "What is Hibernate?"
+      ]
+    },
+    {
+      "question": "Explain What is ORM (Object.",
+      "topics": [
+        "What is ORM (Object"
+      ]
+    },
+    {
+      "question": "Explain Relational Mapping)?.",
+      "topics": [
+        "Relational Mapping)?"
+      ]
+    },
+    {
+      "question": "Explain Why do we use Hibernate in Java?.",
+      "topics": [
+        "Why do we use Hibernate in Java?"
+      ]
+    },
+    {
+      "question": "Explain What are the advantages of Hibernate over JDBC?.",
+      "topics": [
+        "What are the advantages of Hibernate over JDBC?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between Hibernate and JDBC?.",
+      "topics": [
+        "What is the difference between Hibernate and JDBC?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between Hibernate and JPA?.",
+      "topics": [
+        "What is the difference between Hibernate and JPA?"
+      ]
+    },
+    {
+      "question": "Explain What is an entity class in Hibernate?.",
+      "topics": [
+        "What is an entity class in Hibernate?"
+      ]
+    },
+    {
+      "question": "Explain What is the purpose of the @Entity annotation?.",
+      "topics": [
+        "What is the purpose of the @Entity annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the purpose of the @Id annotation?.",
+      "topics": [
+        "What is the purpose of the @Id annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the @GeneratedValue annotation?.",
+      "topics": [
+        "What is the @GeneratedValue annotation?"
+      ]
+    },
+    {
+      "question": "Explain What is the role of hibernate.cfg.xml?.",
+      "topics": [
+        "What is the role of hibernate.cfg.xml?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between SessionFactory and Session?.",
+      "topics": [
+        "What is the difference between SessionFactory and Session?"
+      ]
+    },
+    {
+      "question": "Explain What is the role of the Hibernate Transaction interface?.",
+      "topics": [
+        "What is the role of the Hibernate Transaction interface?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between save() and persist()?.",
+      "topics": [
+        "What is the difference between save() and persist()?"
+      ]
+    },
+    {
+      "question": "Explain What is the difference between get() and load()?.",
+      "topics": [
+        "What is the difference between get() and load()?"
+      ]
+    }
+  ],
+  "error": null,
+  "created": 1792219357.5506146,
+  "marks": 10,
+  "format": "webp",
+  "covered_topics": [
+    "What is Hibernate?",
+    "What is ORM (Object",
+    "Relational Mapping)?",
+    "Why do we use Hibernate in Java?",
+    "What are the advantages of Hibernate over JDBC?",
+    "What is the difference between Hibernate and JDBC?",
+    "What is the difference between Hibernate and JPA?",
+    "What is an entity class in Hibernate?",
+    "What is the purpose of the @Entity annotation?",
+    "What is the purpose of the @Id annotation?",
+    "What is the @GeneratedValue annotation?",
+    "What is the role of hibernate.cfg.xml?",
+    "What is the difference between SessionFactory and Session?",
+    "What is the role of the Hibernate Transaction interface?",
+    "What is the difference between save() and persist()?",
+    "What is the difference between get() and load()?"
+  ],
+  "model": "qwen3:4b",
+  "completed": 0,
+  "results": []
+}
