@@ -10,7 +10,7 @@ In Command Prompt, go to `AI_Student_Notes\backend` and run:
 python -m venv venv
 venv\Scripts\activate
 python -m pip install -r requirements.txt
-set OLLAMA_MODEL=qwen3:4b
+set OLLAMA_MODEL
 python -m uvicorn main:app --host 127.0.0.1 --port 8000
 ```
 
